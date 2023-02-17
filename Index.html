@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,76 @@
     <title>Document</title>
 </head>
 <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 10;
-        overflow: hidden;
-        border: 1px rgb(64, 141, 204);
-        background-color: cadetblues;
-    }
-    li {
-        float: left;
-    }
-        li a {
-            display: block;
-            color: #000000;
-            text-align: center;
-            padding: 10px;
-            background-color: rgb(144, 144, 179);
-            text-decoration: none;
-        }
-    li a:hover{
-        background-color: rgb(86, 151, 151);
-    }
-    .active {
-        background-color: rgb(163, 156, 147);
-    }
-        
-</style>
-<body>
-   <ul>
-    <li><a href="Home">Home</a></li>
-    <li><a href="Galeria">Galeria</a></li>
-    <li><a href="Lista">Lista</a></li>
-    <li style="float:right"><a class="active"
- href="#about">about</a></ki>
-   </ul>
+.Navbar {
+    display: flex;
+    justify-content: left;
+    background-color: #000000;
+}
 
+.Navbar >div {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+
+.Navbar a {
+    color: #dedede;
+}
+
+.Navbar > :hover {
+    background-color:#d2a977;
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
+    
+
+
+</style>
+
+<body style="text-align: center;">
+    <div class="Navbar">
+        <div class="active"><a href="Index.html">Home</a></div>
+        <div class="active"><a href="url">Galeria</a></div>
+        <div class="active"><a href="url">Lista</a></div>
+        
+    </div>
+        
+
+    </ul>
+
+    <div style="padding: 10px; margin-top: 10px;background-color:#d2a977;height: 1000px">
+<div>
+    <img src="imagens/300581278_597607248699979_4345450003622292294_n.jpg" style= "margin-left: auto; 
+    margin-right: auto;
+    margin-top: 5%;
+    display: block;
+    width: 20%;">
+    <h2>Mirela Viana</h2>
+    <p>Mirela de Melo Viana
+        27.09.2006</p> 
+        <h2>Sobre mim</h2> 
+        <p>Nascida em São Paulo Capital no dia 27.09.2006, creci em um local cheio de crianças com uma infancia normal, sempre gostei de desenhar e gostaria de trabalahr com o ramo criativo. Em 2019 tive que me mudar para SBC por conta da nova escola (SESI) onde estou atualmente no 2 ano E.M (2023).</p>
+        <h2>Gosto de:</h2>
+        <p>Ler.</p>
+        <p>Desenhar.</p>
+        <p>Jogar.</p>
+        <p>Assistir série.</p>
+    <h2>Não Gosto de:</h2>
+    <p>Barulho.</p>
+    <p>Correr.</p>
+    <p>Filmes de terror.</p>
+    <p>Figo.</p>
+
+        
+    
+</div>
 </body>
+
 </html>
