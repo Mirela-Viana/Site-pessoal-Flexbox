@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/Index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.Navbar {
+    display: flex;
+    justify-content: left;
+    background-color: #000000;
+}
+
+.Navbar >div {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+
+.Navbar a {
+    color: #dedede;
+}
+
+.Navbar > :hover {
+    background-color:#d2a977;
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
+    
+
+
+</style></head>
+
+
+<body style="text-align: center;">
+    <div class="Navbar">
+        <div class="active"><a href="http://127.0.0.1:5500/Index.html">Home</a></div>
+        <div class="active"><a href="http://127.0.0.1:5500/url">Galeria</a></div>
+        <div class="active"><a href="http://127.0.0.1:5500/url">Lista</a></div>
+        
+    </div>
+        
+
+    
+
+    <div style="padding: 10px; margin-top: 10px;background-color:#d2a977;height: 1000px">
+<div>
+    <img src="./Document_files/300581278_597607248699979_4345450003622292294_n.jpg" style="margin-left: auto; 
+    margin-right: auto;
+    margin-top: 5%;
+    display: block;
+    width: 20%;">
+    <h2>Mirela Viana</h2>
+    <p>Mirela de Melo Viana
+        27.09.2006</p> 
+        <h2>Sobre mim</h2> 
+        <p>Nascida em São Paulo Capital no dia 27.09.2006, creci em um local cheio de crianças com uma infancia normal, sempre gostei de desenhar e gostaria de trabalahr com o ramo criativo. Em 2019 tive que me mudar para SBC por conta da nova escola (SESI) onde estou atualmente no 2 ano E.M (2023).</p>
+        <h2>Gosto de:</h2>
+        <p>Ler.</p>
+        <p>Desenhar.</p>
+        <p>Jogar.</p>
+        <p>Assistir série.</p>
+    <h2>Não Gosto de:</h2>
+    <p>Barulho.</p>
+    <p>Correr.</p>
+    <p>Filmes de terror.</p>
+    <p>Figo.</p>
+
+        
+    
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div></body></html>
